@@ -1,0 +1,660 @@
+-----------------------------------------------------------------------------
+--                             This is ASPECT                              --
+-- The Advanced Solver for Planetary Evolution, Convection, and Tectonics. --
+-----------------------------------------------------------------------------
+--     . version 2.6.0-pre (main, 4024c3d0a)
+--     . using deal.II 9.5.1
+--     .       with 32 bit indices and vectorization level 0 (64 bits)
+--     . using Trilinos 13.2.0
+--     . using p4est 2.3.2
+--     . running in DEBUG mode
+--     . running with 1 MPI process
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+-- For information on how to cite ASPECT, see:
+--   https://aspect.geodynamics.org/citing.html?ver=2.6.0-pre&sha=4024c3d0a&src=code
+-----------------------------------------------------------------------------
+Number of active cells: 10,240 (on 6 levels)
+Number of degrees of freedom: 134,692 (82,818+10,465+41,409)
+
+*** Timestep 0:  t=0 years, dt=0 years
+   Solving temperature system... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 83+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00000
+     RMS, max velocity:        0.00341 m/year, 0.0151 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 1:  t=1000 years, dt=1000 years
+   Solving temperature system... 10 iterations.
+   Solving Stokes system... 37+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00341 m/year, 0.0151 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 2:  t=2300 years, dt=1300 years
+   Solving temperature system... 8 iterations.
+   Solving Stokes system... 11+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00341 m/year, 0.0151 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 3:  t=3990 years, dt=1690 years
+   Solving temperature system... 9 iterations.
+   Solving Stokes system... 12+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00341 m/year, 0.0151 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 4:  t=6187 years, dt=2197 years
+   Solving temperature system... 9 iterations.
+   Solving Stokes system... 14+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.0034 m/year, 0.0151 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 5:  t=9043.1 years, dt=2856.1 years
+   Solving temperature system... 9 iterations.
+   Solving Stokes system... 16+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.0034 m/year, 0.0151 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 6:  t=12756 years, dt=3712.93 years
+   Solving temperature system... 9 iterations.
+   Solving Stokes system... 17+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.0034 m/year, 0.0151 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 7:  t=17582.8 years, dt=4826.81 years
+   Solving temperature system... 9 iterations.
+   Solving Stokes system... 18+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.0034 m/year, 0.0151 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 8:  t=23857.7 years, dt=6274.85 years
+   Solving temperature system... 9 iterations.
+   Solving Stokes system... 19+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.0034 m/year, 0.015 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 9:  t=32015 years, dt=8157.31 years
+   Solving temperature system... 9 iterations.
+   Solving Stokes system... 21+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00339 m/year, 0.015 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 10:  t=42619.5 years, dt=10604.5 years
+   Solving temperature system... 8 iterations.
+   Solving Stokes system... 25+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00339 m/year, 0.015 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 11:  t=56405.3 years, dt=13785.8 years
+   Solving temperature system... 8 iterations.
+   Solving Stokes system... 27+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00338 m/year, 0.015 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 12:  t=74327 years, dt=17921.6 years
+   Solving temperature system... 8 iterations.
+   Solving Stokes system... 29+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00337 m/year, 0.0149 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 13:  t=97625 years, dt=23298.1 years
+   Solving temperature system... 8 iterations.
+   Solving Stokes system... 31+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00336 m/year, 0.0149 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 14:  t=127913 years, dt=30287.5 years
+   Solving temperature system... 7 iterations.
+   Solving Stokes system... 34+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00335 m/year, 0.0148 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 15:  t=167286 years, dt=39373.8 years
+   Solving temperature system... 7 iterations.
+   Solving Stokes system... 36+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00333 m/year, 0.0148 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 16:  t=218472 years, dt=51185.9 years
+   Solving temperature system... 7 iterations.
+   Solving Stokes system... 39+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00331 m/year, 0.0147 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 17:  t=285014 years, dt=66541.7 years
+   Solving temperature system... 8 iterations.
+   Solving Stokes system... 41+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00328 m/year, 0.0145 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 18:  t=371518 years, dt=86504.2 years
+   Solving temperature system... 10 iterations.
+   Solving Stokes system... 43+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00324 m/year, 0.0143 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 19:  t=480453 years, dt=108935 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00318 m/year, 0.0141 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 20:  t=591141 years, dt=110688 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00313 m/year, 0.0139 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 21:  t=703733 years, dt=112593 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00308 m/year, 0.0136 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 22:  t=818330 years, dt=114596 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00302 m/year, 0.0134 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 23:  t=935081 years, dt=116751 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00297 m/year, 0.0131 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 24:  t=1.05415e+06 years, dt=119066 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00001
+     RMS, max velocity:        0.00291 m/year, 0.0129 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 25:  t=1.17566e+06 years, dt=121514 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00285 m/year, 0.0126 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 26:  t=1.29984e+06 years, dt=124180 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00279 m/year, 0.0123 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 27:  t=1.42683e+06 years, dt=126989 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00273 m/year, 0.012 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 28:  t=1.55687e+06 years, dt=130039 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00267 m/year, 0.0117 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 29:  t=1.69018e+06 years, dt=133309 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00261 m/year, 0.0114 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 30:  t=1.827e+06 years, dt=136823 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00255 m/year, 0.0111 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 31:  t=1.96764e+06 years, dt=140643 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 45+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00248 m/year, 0.0108 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 32:  t=2.11236e+06 years, dt=144717 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00002
+     RMS, max velocity:        0.00242 m/year, 0.0105 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 33:  t=2.26156e+06 years, dt=149196 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00235 m/year, 0.0101 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 34:  t=2.41552e+06 years, dt=153965 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00229 m/year, 0.00981 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 35:  t=2.57475e+06 years, dt=159226 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00222 m/year, 0.00948 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 36:  t=2.73962e+06 years, dt=164870 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00216 m/year, 0.00913 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 37:  t=2.91073e+06 years, dt=171114 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00209 m/year, 0.00879 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 38:  t=3.08857e+06 years, dt=177841 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00003
+     RMS, max velocity:        0.00203 m/year, 0.00843 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 39:  t=3.27388e+06 years, dt=185305 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00196 m/year, 0.00808 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 40:  t=3.46728e+06 years, dt=193406 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 46+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.0019 m/year, 0.00772 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 41:  t=3.66967e+06 years, dt=202384 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 47+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00183 m/year, 0.00736 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 42:  t=3.88196e+06 years, dt=212293 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 47+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00176 m/year, 0.007 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 43:  t=4.10516e+06 years, dt=223201 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 48+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00004
+     RMS, max velocity:        0.0017 m/year, 0.00664 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 44:  t=4.34052e+06 years, dt=235354 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 48+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00163 m/year, 0.00628 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 45:  t=4.58941e+06 years, dt=248894 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 48+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00157 m/year, 0.00592 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 46:  t=4.8533e+06 years, dt=263892 years
+   Solving temperature system... 12 iterations.
+   Solving Stokes system... 48+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.0015 m/year, 0.00557 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 47:  t=5.13398e+06 years, dt=280679 years
+   Solving temperature system... 13 iterations.
+   Solving Stokes system... 48+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00005
+     RMS, max velocity:        0.00144 m/year, 0.00522 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 48:  t=5.43347e+06 years, dt=299490 years
+   Solving temperature system... 13 iterations.
+   Solving Stokes system... 48+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00137 m/year, 0.00487 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 49:  t=5.75407e+06 years, dt=320600 years
+   Solving temperature system... 13 iterations.
+   Solving Stokes system... 48+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00131 m/year, 0.00454 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 50:  t=6.09839e+06 years, dt=344323 years
+   Solving temperature system... 14 iterations.
+   Solving Stokes system... 48+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00006
+     RMS, max velocity:        0.00125 m/year, 0.00421 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 51:  t=6.46942e+06 years, dt=371023 years
+   Solving temperature system... 14 iterations.
+   Solving Stokes system... 49+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00119 m/year, 0.004 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 52:  t=6.86004e+06 years, dt=390627 years
+   Solving temperature system... 14 iterations.
+   Solving Stokes system... 49+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00113 m/year, 0.00383 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 53:  t=7.26828e+06 years, dt=408233 years
+   Solving temperature system... 15 iterations.
+   Solving Stokes system... 50+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00007
+     RMS, max velocity:        0.00108 m/year, 0.00366 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 54:  t=7.6954e+06 years, dt=427128 years
+   Solving temperature system... 15 iterations.
+   Solving Stokes system... 51+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.00102 m/year, 0.0035 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 55:  t=8.14213e+06 years, dt=446723 years
+   Solving temperature system... 15 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00008
+     RMS, max velocity:        0.000976 m/year, 0.00334 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 56:  t=8.60951e+06 years, dt=467385 years
+   Solving temperature system... 15 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.000931 m/year, 0.00319 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 57:  t=9.09871e+06 years, dt=489202 years
+   Solving temperature system... 15 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00009
+     RMS, max velocity:        0.000888 m/year, 0.00305 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 58:  t=9.61076e+06 years, dt=512043 years
+   Solving temperature system... 16 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.000849 m/year, 0.00291 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 59:  t=1.01468e+07 years, dt=536054 years
+   Solving temperature system... 16 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00010
+     RMS, max velocity:        0.000811 m/year, 0.00278 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 60:  t=1.0708e+07 years, dt=561221 years
+   Solving temperature system... 16 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.000776 m/year, 0.00266 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 61:  t=1.12955e+07 years, dt=587504 years
+   Solving temperature system... 16 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00011
+     RMS, max velocity:        0.000744 m/year, 0.00254 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 62:  t=1.19104e+07 years, dt=614884 years
+   Solving temperature system... 17 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.000713 m/year, 0.00243 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 63:  t=1.25537e+07 years, dt=643320 years
+   Solving temperature system... 17 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00012
+     RMS, max velocity:        0.000685 m/year, 0.00232 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 64:  t=1.32265e+07 years, dt=672762 years
+   Solving temperature system... 17 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00013
+     RMS, max velocity:        0.000658 m/year, 0.00222 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 65:  t=1.39296e+07 years, dt=703062 years
+   Solving temperature system... 17 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.000633 m/year, 0.00213 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 66:  t=1.46639e+07 years, dt=734303 years
+   Solving temperature system... 18 iterations.
+   Solving Stokes system... 52+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00014
+     RMS, max velocity:        0.00061 m/year, 0.00204 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 67:  t=1.54303e+07 years, dt=766454 years
+   Solving temperature system... 18 iterations.
+   Solving Stokes system... 51+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00015
+     RMS, max velocity:        0.000589 m/year, 0.00195 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 68:  t=1.62298e+07 years, dt=799460 years
+   Solving temperature system... 18 iterations.
+   Solving Stokes system... 51+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00016
+     RMS, max velocity:        0.000569 m/year, 0.00188 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 69:  t=1.70631e+07 years, dt=833289 years
+   Solving temperature system... 18 iterations.
+   Solving Stokes system... 50+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00017
+     RMS, max velocity:        0.00055 m/year, 0.0018 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 70:  t=1.7931e+07 years, dt=867884 years
+   Solving temperature system... 19 iterations.
+   Solving Stokes system... 50+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:  0.000532 m/year, 0.00173 m/year
+     Topography min/max: 0 m, 0 m
+
+*** Timestep 71:  t=1.88342e+07 years, dt=903212 years
+   Solving temperature system... 19 iterations.
+   Solving Stokes system... 50+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00018
+     RMS, max velocity:        0.000516 m/year, 0.00166 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 72:  t=1.97734e+07 years, dt=939217 years
+   Solving temperature system... 19 iterations.
+   Solving Stokes system... 50+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00019
+     RMS, max velocity:        0.000501 m/year, 0.0016 m/year
+     Topography min/max:       0 m, 0 m
+
+*** Timestep 73:  t=2e+07 years, dt=226620 years
+   Solving temperature system... 9 iterations.
+   Solving Stokes system... 41+0 iterations.
+
+   Postprocessing:
+     Writing graphical output: output-free_surface_with_crust_free_slip/solution/solution-00020
+     RMS, max velocity:        0.000497 m/year, 0.00159 m/year
+     Topography min/max:       0 m, 0 m
+
+Termination requested by criterion: end time
+
+
++----------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start     |      65.3s |            |
+|                                              |            |            |
+| Section                          | no. calls |  wall time | % of total |
++----------------------------------+-----------+------------+------------+
+| Assemble Stokes system           |        74 |      10.4s |        16% |
+| Assemble temperature system      |        74 |      21.2s |        32% |
+| Build Stokes preconditioner      |         1 |     0.244s |      0.37% |
+| Build temperature preconditioner |        74 |      1.59s |       2.4% |
+| Initialization                   |         1 |    0.0592s |         0% |
+| Postprocessing                   |        74 |      3.06s |       4.7% |
+| Setup dof systems                |         1 |    0.0393s |         0% |
+| Setup initial conditions         |         1 |     0.116s |      0.18% |
+| Setup matrices                   |         1 |     0.188s |      0.29% |
+| Solve Stokes system              |        74 |      24.6s |        38% |
+| Solve temperature system         |        74 |     0.997s |       1.5% |
++----------------------------------+-----------+------------+------------+
+
+-- Total wallclock time elapsed including restarts: 65s
+-----------------------------------------------------------------------------
+-- For information on how to cite ASPECT, see:
+--   https://aspect.geodynamics.org/citing.html?ver=2.6.0-pre&sha=4024c3d0a&src=code
+-----------------------------------------------------------------------------

@@ -1,0 +1,774 @@
+-----------------------------------------------------------------------------
+--                             This is ASPECT                              --
+-- The Advanced Solver for Planetary Evolution, Convection, and Tectonics. --
+-----------------------------------------------------------------------------
+--     . version 2.6.0-pre (main, 4024c3d0a)
+--     . using deal.II 9.5.1
+--     .       with 32 bit indices and vectorization level 0 (64 bits)
+--     . using Trilinos 13.2.0
+--     . using p4est 2.3.2
+--     . running in DEBUG mode
+--     . running with 1 MPI process
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+-- For information on how to cite ASPECT, see:
+--   https://aspect.geodynamics.org/citing.html?ver=2.6.0-pre&dg=1&sha=4024c3d0a&src=code
+-----------------------------------------------------------------------------
+Number of active cells: 3,750 (on 1 levels)
+Number of degrees of freedom: 173,254 (30,502+3,876+3,876+33,750+33,750+33,750+33,750)
+
+*** Timestep 0:  t=0 years, dt=0 years
+   Solving temperature system... 0 iterations.
+   Skipping ve_stress_xx composition solve because RHS is zero.
+   Skipping ve_stress_yy composition solve because RHS is zero.
+   Skipping ve_stress_xy composition solve because RHS is zero.
+   Solving beam system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 219+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00648 m/year, 0.0125 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00000
+
+*** Timestep 1:  t=1000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 4 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 208+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00589 m/year, 0.0113 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00001
+
+*** Timestep 2:  t=2000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 4 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 184+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00567 m/year, 0.0109 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00002
+
+*** Timestep 3:  t=3000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 160+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00547 m/year, 0.0105 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00003
+
+*** Timestep 4:  t=4000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 4 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 206+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00533 m/year, 0.0102 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00004
+
+*** Timestep 5:  t=5000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 4 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 221+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.0052 m/year, 0.00991 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00005
+
+*** Timestep 6:  t=6000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 4 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 213+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00504 m/year, 0.00946 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00006
+
+*** Timestep 7:  t=7000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 214+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00494 m/year, 0.00933 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00007
+
+*** Timestep 8:  t=8000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 5 iterations.
+   Solving beam system ... 4 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 217+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00484 m/year, 0.0091 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00008
+
+*** Timestep 9:  t=9000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 187+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00474 m/year, 0.00893 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00009
+
+*** Snapshot created!
+
+*** Timestep 10:  t=10000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 184+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00466 m/year, 0.00872 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00010
+
+*** Timestep 11:  t=11000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 189+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00462 m/year, 0.00851 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00011
+
+*** Timestep 12:  t=12000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 204+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00455 m/year, 0.00835 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00012
+
+*** Timestep 13:  t=13000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 160+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00445 m/year, 0.00809 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00013
+
+*** Timestep 14:  t=14000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 170+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00439 m/year, 0.00798 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00014
+
+*** Timestep 15:  t=15000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 204+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00433 m/year, 0.00777 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00015
+
+*** Timestep 16:  t=16000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 196+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00425 m/year, 0.00763 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00016
+
+*** Timestep 17:  t=17000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 195+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00417 m/year, 0.00747 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00017
+
+*** Timestep 18:  t=18000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 181+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.0041 m/year, 0.00733 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00018
+
+*** Timestep 19:  t=19000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 211+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00399 m/year, 0.00708 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00019
+
+*** Snapshot created!
+
+*** Timestep 20:  t=20000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 208+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00393 m/year, 0.00699 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00020
+
+*** Timestep 21:  t=21000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 178+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00385 m/year, 0.00683 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00021
+
+*** Timestep 22:  t=22000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 180+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00378 m/year, 0.00671 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00022
+
+*** Timestep 23:  t=23000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 211+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.0037 m/year, 0.00655 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00023
+
+*** Timestep 24:  t=24000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 219+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00364 m/year, 0.00643 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00024
+
+*** Timestep 25:  t=25000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 189+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00359 m/year, 0.00627 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00025
+
+*** Timestep 26:  t=26000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 177+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00354 m/year, 0.00615 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00026
+
+*** Timestep 27:  t=27000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 188+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00348 m/year, 0.00603 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00027
+
+*** Timestep 28:  t=28000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 178+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00342 m/year, 0.00592 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00028
+
+*** Timestep 29:  t=29000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 176+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00336 m/year, 0.00582 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00029
+
+*** Snapshot created!
+
+*** Timestep 30:  t=30000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 182+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00328 m/year, 0.00563 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00030
+
+*** Timestep 31:  t=31000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 152+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00325 m/year, 0.00559 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00031
+
+*** Timestep 32:  t=32000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 173+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00319 m/year, 0.00543 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00032
+
+*** Timestep 33:  t=33000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 171+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00314 m/year, 0.00533 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00033
+
+*** Timestep 34:  t=34000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 169+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00308 m/year, 0.00524 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00034
+
+*** Timestep 35:  t=35000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 168+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00304 m/year, 0.00516 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00035
+
+*** Timestep 36:  t=36000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 203+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00297 m/year, 0.00505 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00036
+
+*** Timestep 37:  t=37000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 209+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00294 m/year, 0.00499 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00037
+
+*** Timestep 38:  t=38000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 180+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00287 m/year, 0.00492 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00038
+
+*** Timestep 39:  t=39000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 158+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.0028 m/year, 0.00485 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00039
+
+*** Snapshot created!
+
+*** Timestep 40:  t=40000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 3 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 167+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00277 m/year, 0.00479 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00040
+
+*** Timestep 41:  t=41000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 196+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00271 m/year, 0.0047 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00041
+
+*** Timestep 42:  t=42000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 172+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00267 m/year, 0.00462 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00042
+
+*** Timestep 43:  t=43000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 167+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00262 m/year, 0.00454 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00043
+
+*** Timestep 44:  t=44000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 141+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00258 m/year, 0.00448 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00044
+
+*** Timestep 45:  t=45000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 163+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00254 m/year, 0.00442 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00045
+
+*** Timestep 46:  t=46000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 3 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 188+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.0025 m/year, 0.00435 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00046
+
+*** Timestep 47:  t=47000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 3 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 160+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00246 m/year, 0.00431 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00047
+
+*** Timestep 48:  t=48000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 3 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 186+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00244 m/year, 0.00428 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00048
+
+*** Timestep 49:  t=49000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 4 iterations.
+   Solving ve_stress_yy system ... 4 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 205+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00237 m/year, 0.00418 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00049
+
+*** Snapshot created!
+
+*** Timestep 50:  t=50000 years, dt=1000 years
+   Solving temperature system... 0 iterations.
+   Solving ve_stress_xx system ... 3 iterations.
+   Solving ve_stress_yy system ... 3 iterations.
+   Solving ve_stress_xy system ... 4 iterations.
+   Solving beam system ... 3 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 165+0 iterations.
+
+   Postprocessing:
+     RMS, max velocity:        0.00232 m/year, 0.00408 m/year
+     Temperature min/avg/max:  293 K, 293 K, 293 K
+     Writing graphical output: output-beam/solution/solution-00050
+
+Termination requested by criterion: end time
+
+
++----------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start     |       238s |            |
+|                                              |            |            |
+| Section                          | no. calls |  wall time | % of total |
++----------------------------------+-----------+------------+------------+
+| Assemble Stokes system           |        51 |      9.54s |         4% |
+| Assemble composition system      |       204 |       157s |        66% |
+| Assemble temperature system      |        51 |       9.3s |       3.9% |
+| Build Stokes preconditioner      |        51 |       7.4s |       3.1% |
+| Build composition preconditioner |       201 |      9.84s |       4.1% |
+| Build temperature preconditioner |        51 |    0.0692s |         0% |
+| Create snapshot                  |         5 |     0.642s |      0.27% |
+| Initialization                   |         1 |      0.15s |         0% |
+| Postprocessing                   |        51 |       6.2s |       2.6% |
+| Setup dof systems                |         1 |    0.0433s |         0% |
+| Setup initial conditions         |         1 |     0.191s |         0% |
+| Setup matrices                   |         1 |     0.878s |      0.37% |
+| Solve Stokes system              |        51 |        29s |        12% |
+| Solve composition system         |       201 |      5.01s |       2.1% |
+| Solve temperature system         |        51 |    0.0311s |         0% |
++----------------------------------+-----------+------------+------------+
+
+-- Total wallclock time elapsed including restarts: 238s
+-----------------------------------------------------------------------------
+-- For information on how to cite ASPECT, see:
+--   https://aspect.geodynamics.org/citing.html?ver=2.6.0-pre&dg=1&sha=4024c3d0a&src=code
+-----------------------------------------------------------------------------

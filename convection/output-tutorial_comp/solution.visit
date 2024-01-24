@@ -1,0 +1,506 @@
+!TIME 0
+!TIME 1.02353e+06
+!TIME 2.00372e+06
+!TIME 3.00225e+06
+!TIME 4.00916e+06
+!TIME 5.00383e+06
+!TIME 6.01135e+06
+!TIME 7.01976e+06
+!TIME 8.00816e+06
+!TIME 9.01088e+06
+!TIME 1.0006e+07
+!TIME 1.10096e+07
+!TIME 1.20158e+07
+!TIME 1.30182e+07
+!TIME 1.40313e+07
+!TIME 1.50093e+07
+!TIME 1.60305e+07
+!TIME 1.70121e+07
+!TIME 1.801e+07
+!TIME 1.90118e+07
+!TIME 2.00125e+07
+!TIME 2.10043e+07
+!TIME 2.20236e+07
+!TIME 2.30123e+07
+!TIME 2.40221e+07
+!TIME 2.50122e+07
+!TIME 2.60601e+07
+!TIME 2.7054e+07
+!TIME 2.80402e+07
+!TIME 2.90451e+07
+!TIME 3.00241e+07
+!TIME 3.10524e+07
+!TIME 3.20119e+07
+!TIME 3.30311e+07
+!TIME 3.40328e+07
+!TIME 3.50211e+07
+!TIME 3.60216e+07
+!TIME 3.70191e+07
+!TIME 3.80289e+07
+!TIME 3.90574e+07
+!TIME 4.00517e+07
+!TIME 4.10039e+07
+!TIME 4.20344e+07
+!TIME 4.3073e+07
+!TIME 4.40603e+07
+!TIME 4.50056e+07
+!TIME 4.6052e+07
+!TIME 4.70068e+07
+!TIME 4.80001e+07
+!TIME 4.90633e+07
+!TIME 5.00508e+07
+!TIME 5.10237e+07
+!TIME 5.20522e+07
+!TIME 5.30542e+07
+!TIME 5.40275e+07
+!TIME 5.5089e+07
+!TIME 5.60769e+07
+!TIME 5.70284e+07
+!TIME 5.80545e+07
+!TIME 5.90715e+07
+!TIME 6.00361e+07
+!TIME 6.10914e+07
+!TIME 6.20191e+07
+!TIME 6.30266e+07
+!TIME 6.40533e+07
+!TIME 6.5024e+07
+!TIME 6.60967e+07
+!TIME 6.70959e+07
+!TIME 6.80257e+07
+!TIME 6.90493e+07
+!TIME 7.00748e+07
+!TIME 7.10368e+07
+!TIME 7.20945e+07
+!TIME 7.31273e+07
+!TIME 7.41059e+07
+!TIME 7.511e+07
+!TIME 7.61182e+07
+!TIME 7.70862e+07
+!TIME 7.81521e+07
+!TIME 7.90081e+07
+!TIME 8.00489e+07
+!TIME 8.10938e+07
+!TIME 8.20632e+07
+!TIME 8.3034e+07
+!TIME 8.40519e+07
+!TIME 8.50634e+07
+!TIME 8.60397e+07
+!TIME 8.70083e+07
+!TIME 8.80357e+07
+!TIME 8.9035e+07
+!TIME 9.0092e+07
+!TIME 9.11117e+07
+!TIME 9.21431e+07
+!TIME 9.31024e+07
+!TIME 9.40495e+07
+!TIME 9.50642e+07
+!TIME 9.60267e+07
+!TIME 9.71087e+07
+!TIME 9.8063e+07
+!TIME 9.91219e+07
+!TIME 1e+08
+!NBLOCKS 4
+solution/solution-00000.0000.vtu
+solution/solution-00000.0001.vtu
+solution/solution-00000.0002.vtu
+solution/solution-00000.0003.vtu
+solution/solution-00001.0000.vtu
+solution/solution-00001.0001.vtu
+solution/solution-00001.0002.vtu
+solution/solution-00001.0003.vtu
+solution/solution-00002.0000.vtu
+solution/solution-00002.0001.vtu
+solution/solution-00002.0002.vtu
+solution/solution-00002.0003.vtu
+solution/solution-00003.0000.vtu
+solution/solution-00003.0001.vtu
+solution/solution-00003.0002.vtu
+solution/solution-00003.0003.vtu
+solution/solution-00004.0000.vtu
+solution/solution-00004.0001.vtu
+solution/solution-00004.0002.vtu
+solution/solution-00004.0003.vtu
+solution/solution-00005.0000.vtu
+solution/solution-00005.0001.vtu
+solution/solution-00005.0002.vtu
+solution/solution-00005.0003.vtu
+solution/solution-00006.0000.vtu
+solution/solution-00006.0001.vtu
+solution/solution-00006.0002.vtu
+solution/solution-00006.0003.vtu
+solution/solution-00007.0000.vtu
+solution/solution-00007.0001.vtu
+solution/solution-00007.0002.vtu
+solution/solution-00007.0003.vtu
+solution/solution-00008.0000.vtu
+solution/solution-00008.0001.vtu
+solution/solution-00008.0002.vtu
+solution/solution-00008.0003.vtu
+solution/solution-00009.0000.vtu
+solution/solution-00009.0001.vtu
+solution/solution-00009.0002.vtu
+solution/solution-00009.0003.vtu
+solution/solution-00010.0000.vtu
+solution/solution-00010.0001.vtu
+solution/solution-00010.0002.vtu
+solution/solution-00010.0003.vtu
+solution/solution-00011.0000.vtu
+solution/solution-00011.0001.vtu
+solution/solution-00011.0002.vtu
+solution/solution-00011.0003.vtu
+solution/solution-00012.0000.vtu
+solution/solution-00012.0001.vtu
+solution/solution-00012.0002.vtu
+solution/solution-00012.0003.vtu
+solution/solution-00013.0000.vtu
+solution/solution-00013.0001.vtu
+solution/solution-00013.0002.vtu
+solution/solution-00013.0003.vtu
+solution/solution-00014.0000.vtu
+solution/solution-00014.0001.vtu
+solution/solution-00014.0002.vtu
+solution/solution-00014.0003.vtu
+solution/solution-00015.0000.vtu
+solution/solution-00015.0001.vtu
+solution/solution-00015.0002.vtu
+solution/solution-00015.0003.vtu
+solution/solution-00016.0000.vtu
+solution/solution-00016.0001.vtu
+solution/solution-00016.0002.vtu
+solution/solution-00016.0003.vtu
+solution/solution-00017.0000.vtu
+solution/solution-00017.0001.vtu
+solution/solution-00017.0002.vtu
+solution/solution-00017.0003.vtu
+solution/solution-00018.0000.vtu
+solution/solution-00018.0001.vtu
+solution/solution-00018.0002.vtu
+solution/solution-00018.0003.vtu
+solution/solution-00019.0000.vtu
+solution/solution-00019.0001.vtu
+solution/solution-00019.0002.vtu
+solution/solution-00019.0003.vtu
+solution/solution-00020.0000.vtu
+solution/solution-00020.0001.vtu
+solution/solution-00020.0002.vtu
+solution/solution-00020.0003.vtu
+solution/solution-00021.0000.vtu
+solution/solution-00021.0001.vtu
+solution/solution-00021.0002.vtu
+solution/solution-00021.0003.vtu
+solution/solution-00022.0000.vtu
+solution/solution-00022.0001.vtu
+solution/solution-00022.0002.vtu
+solution/solution-00022.0003.vtu
+solution/solution-00023.0000.vtu
+solution/solution-00023.0001.vtu
+solution/solution-00023.0002.vtu
+solution/solution-00023.0003.vtu
+solution/solution-00024.0000.vtu
+solution/solution-00024.0001.vtu
+solution/solution-00024.0002.vtu
+solution/solution-00024.0003.vtu
+solution/solution-00025.0000.vtu
+solution/solution-00025.0001.vtu
+solution/solution-00025.0002.vtu
+solution/solution-00025.0003.vtu
+solution/solution-00026.0000.vtu
+solution/solution-00026.0001.vtu
+solution/solution-00026.0002.vtu
+solution/solution-00026.0003.vtu
+solution/solution-00027.0000.vtu
+solution/solution-00027.0001.vtu
+solution/solution-00027.0002.vtu
+solution/solution-00027.0003.vtu
+solution/solution-00028.0000.vtu
+solution/solution-00028.0001.vtu
+solution/solution-00028.0002.vtu
+solution/solution-00028.0003.vtu
+solution/solution-00029.0000.vtu
+solution/solution-00029.0001.vtu
+solution/solution-00029.0002.vtu
+solution/solution-00029.0003.vtu
+solution/solution-00030.0000.vtu
+solution/solution-00030.0001.vtu
+solution/solution-00030.0002.vtu
+solution/solution-00030.0003.vtu
+solution/solution-00031.0000.vtu
+solution/solution-00031.0001.vtu
+solution/solution-00031.0002.vtu
+solution/solution-00031.0003.vtu
+solution/solution-00032.0000.vtu
+solution/solution-00032.0001.vtu
+solution/solution-00032.0002.vtu
+solution/solution-00032.0003.vtu
+solution/solution-00033.0000.vtu
+solution/solution-00033.0001.vtu
+solution/solution-00033.0002.vtu
+solution/solution-00033.0003.vtu
+solution/solution-00034.0000.vtu
+solution/solution-00034.0001.vtu
+solution/solution-00034.0002.vtu
+solution/solution-00034.0003.vtu
+solution/solution-00035.0000.vtu
+solution/solution-00035.0001.vtu
+solution/solution-00035.0002.vtu
+solution/solution-00035.0003.vtu
+solution/solution-00036.0000.vtu
+solution/solution-00036.0001.vtu
+solution/solution-00036.0002.vtu
+solution/solution-00036.0003.vtu
+solution/solution-00037.0000.vtu
+solution/solution-00037.0001.vtu
+solution/solution-00037.0002.vtu
+solution/solution-00037.0003.vtu
+solution/solution-00038.0000.vtu
+solution/solution-00038.0001.vtu
+solution/solution-00038.0002.vtu
+solution/solution-00038.0003.vtu
+solution/solution-00039.0000.vtu
+solution/solution-00039.0001.vtu
+solution/solution-00039.0002.vtu
+solution/solution-00039.0003.vtu
+solution/solution-00040.0000.vtu
+solution/solution-00040.0001.vtu
+solution/solution-00040.0002.vtu
+solution/solution-00040.0003.vtu
+solution/solution-00041.0000.vtu
+solution/solution-00041.0001.vtu
+solution/solution-00041.0002.vtu
+solution/solution-00041.0003.vtu
+solution/solution-00042.0000.vtu
+solution/solution-00042.0001.vtu
+solution/solution-00042.0002.vtu
+solution/solution-00042.0003.vtu
+solution/solution-00043.0000.vtu
+solution/solution-00043.0001.vtu
+solution/solution-00043.0002.vtu
+solution/solution-00043.0003.vtu
+solution/solution-00044.0000.vtu
+solution/solution-00044.0001.vtu
+solution/solution-00044.0002.vtu
+solution/solution-00044.0003.vtu
+solution/solution-00045.0000.vtu
+solution/solution-00045.0001.vtu
+solution/solution-00045.0002.vtu
+solution/solution-00045.0003.vtu
+solution/solution-00046.0000.vtu
+solution/solution-00046.0001.vtu
+solution/solution-00046.0002.vtu
+solution/solution-00046.0003.vtu
+solution/solution-00047.0000.vtu
+solution/solution-00047.0001.vtu
+solution/solution-00047.0002.vtu
+solution/solution-00047.0003.vtu
+solution/solution-00048.0000.vtu
+solution/solution-00048.0001.vtu
+solution/solution-00048.0002.vtu
+solution/solution-00048.0003.vtu
+solution/solution-00049.0000.vtu
+solution/solution-00049.0001.vtu
+solution/solution-00049.0002.vtu
+solution/solution-00049.0003.vtu
+solution/solution-00050.0000.vtu
+solution/solution-00050.0001.vtu
+solution/solution-00050.0002.vtu
+solution/solution-00050.0003.vtu
+solution/solution-00051.0000.vtu
+solution/solution-00051.0001.vtu
+solution/solution-00051.0002.vtu
+solution/solution-00051.0003.vtu
+solution/solution-00052.0000.vtu
+solution/solution-00052.0001.vtu
+solution/solution-00052.0002.vtu
+solution/solution-00052.0003.vtu
+solution/solution-00053.0000.vtu
+solution/solution-00053.0001.vtu
+solution/solution-00053.0002.vtu
+solution/solution-00053.0003.vtu
+solution/solution-00054.0000.vtu
+solution/solution-00054.0001.vtu
+solution/solution-00054.0002.vtu
+solution/solution-00054.0003.vtu
+solution/solution-00055.0000.vtu
+solution/solution-00055.0001.vtu
+solution/solution-00055.0002.vtu
+solution/solution-00055.0003.vtu
+solution/solution-00056.0000.vtu
+solution/solution-00056.0001.vtu
+solution/solution-00056.0002.vtu
+solution/solution-00056.0003.vtu
+solution/solution-00057.0000.vtu
+solution/solution-00057.0001.vtu
+solution/solution-00057.0002.vtu
+solution/solution-00057.0003.vtu
+solution/solution-00058.0000.vtu
+solution/solution-00058.0001.vtu
+solution/solution-00058.0002.vtu
+solution/solution-00058.0003.vtu
+solution/solution-00059.0000.vtu
+solution/solution-00059.0001.vtu
+solution/solution-00059.0002.vtu
+solution/solution-00059.0003.vtu
+solution/solution-00060.0000.vtu
+solution/solution-00060.0001.vtu
+solution/solution-00060.0002.vtu
+solution/solution-00060.0003.vtu
+solution/solution-00061.0000.vtu
+solution/solution-00061.0001.vtu
+solution/solution-00061.0002.vtu
+solution/solution-00061.0003.vtu
+solution/solution-00062.0000.vtu
+solution/solution-00062.0001.vtu
+solution/solution-00062.0002.vtu
+solution/solution-00062.0003.vtu
+solution/solution-00063.0000.vtu
+solution/solution-00063.0001.vtu
+solution/solution-00063.0002.vtu
+solution/solution-00063.0003.vtu
+solution/solution-00064.0000.vtu
+solution/solution-00064.0001.vtu
+solution/solution-00064.0002.vtu
+solution/solution-00064.0003.vtu
+solution/solution-00065.0000.vtu
+solution/solution-00065.0001.vtu
+solution/solution-00065.0002.vtu
+solution/solution-00065.0003.vtu
+solution/solution-00066.0000.vtu
+solution/solution-00066.0001.vtu
+solution/solution-00066.0002.vtu
+solution/solution-00066.0003.vtu
+solution/solution-00067.0000.vtu
+solution/solution-00067.0001.vtu
+solution/solution-00067.0002.vtu
+solution/solution-00067.0003.vtu
+solution/solution-00068.0000.vtu
+solution/solution-00068.0001.vtu
+solution/solution-00068.0002.vtu
+solution/solution-00068.0003.vtu
+solution/solution-00069.0000.vtu
+solution/solution-00069.0001.vtu
+solution/solution-00069.0002.vtu
+solution/solution-00069.0003.vtu
+solution/solution-00070.0000.vtu
+solution/solution-00070.0001.vtu
+solution/solution-00070.0002.vtu
+solution/solution-00070.0003.vtu
+solution/solution-00071.0000.vtu
+solution/solution-00071.0001.vtu
+solution/solution-00071.0002.vtu
+solution/solution-00071.0003.vtu
+solution/solution-00072.0000.vtu
+solution/solution-00072.0001.vtu
+solution/solution-00072.0002.vtu
+solution/solution-00072.0003.vtu
+solution/solution-00073.0000.vtu
+solution/solution-00073.0001.vtu
+solution/solution-00073.0002.vtu
+solution/solution-00073.0003.vtu
+solution/solution-00074.0000.vtu
+solution/solution-00074.0001.vtu
+solution/solution-00074.0002.vtu
+solution/solution-00074.0003.vtu
+solution/solution-00075.0000.vtu
+solution/solution-00075.0001.vtu
+solution/solution-00075.0002.vtu
+solution/solution-00075.0003.vtu
+solution/solution-00076.0000.vtu
+solution/solution-00076.0001.vtu
+solution/solution-00076.0002.vtu
+solution/solution-00076.0003.vtu
+solution/solution-00077.0000.vtu
+solution/solution-00077.0001.vtu
+solution/solution-00077.0002.vtu
+solution/solution-00077.0003.vtu
+solution/solution-00078.0000.vtu
+solution/solution-00078.0001.vtu
+solution/solution-00078.0002.vtu
+solution/solution-00078.0003.vtu
+solution/solution-00079.0000.vtu
+solution/solution-00079.0001.vtu
+solution/solution-00079.0002.vtu
+solution/solution-00079.0003.vtu
+solution/solution-00080.0000.vtu
+solution/solution-00080.0001.vtu
+solution/solution-00080.0002.vtu
+solution/solution-00080.0003.vtu
+solution/solution-00081.0000.vtu
+solution/solution-00081.0001.vtu
+solution/solution-00081.0002.vtu
+solution/solution-00081.0003.vtu
+solution/solution-00082.0000.vtu
+solution/solution-00082.0001.vtu
+solution/solution-00082.0002.vtu
+solution/solution-00082.0003.vtu
+solution/solution-00083.0000.vtu
+solution/solution-00083.0001.vtu
+solution/solution-00083.0002.vtu
+solution/solution-00083.0003.vtu
+solution/solution-00084.0000.vtu
+solution/solution-00084.0001.vtu
+solution/solution-00084.0002.vtu
+solution/solution-00084.0003.vtu
+solution/solution-00085.0000.vtu
+solution/solution-00085.0001.vtu
+solution/solution-00085.0002.vtu
+solution/solution-00085.0003.vtu
+solution/solution-00086.0000.vtu
+solution/solution-00086.0001.vtu
+solution/solution-00086.0002.vtu
+solution/solution-00086.0003.vtu
+solution/solution-00087.0000.vtu
+solution/solution-00087.0001.vtu
+solution/solution-00087.0002.vtu
+solution/solution-00087.0003.vtu
+solution/solution-00088.0000.vtu
+solution/solution-00088.0001.vtu
+solution/solution-00088.0002.vtu
+solution/solution-00088.0003.vtu
+solution/solution-00089.0000.vtu
+solution/solution-00089.0001.vtu
+solution/solution-00089.0002.vtu
+solution/solution-00089.0003.vtu
+solution/solution-00090.0000.vtu
+solution/solution-00090.0001.vtu
+solution/solution-00090.0002.vtu
+solution/solution-00090.0003.vtu
+solution/solution-00091.0000.vtu
+solution/solution-00091.0001.vtu
+solution/solution-00091.0002.vtu
+solution/solution-00091.0003.vtu
+solution/solution-00092.0000.vtu
+solution/solution-00092.0001.vtu
+solution/solution-00092.0002.vtu
+solution/solution-00092.0003.vtu
+solution/solution-00093.0000.vtu
+solution/solution-00093.0001.vtu
+solution/solution-00093.0002.vtu
+solution/solution-00093.0003.vtu
+solution/solution-00094.0000.vtu
+solution/solution-00094.0001.vtu
+solution/solution-00094.0002.vtu
+solution/solution-00094.0003.vtu
+solution/solution-00095.0000.vtu
+solution/solution-00095.0001.vtu
+solution/solution-00095.0002.vtu
+solution/solution-00095.0003.vtu
+solution/solution-00096.0000.vtu
+solution/solution-00096.0001.vtu
+solution/solution-00096.0002.vtu
+solution/solution-00096.0003.vtu
+solution/solution-00097.0000.vtu
+solution/solution-00097.0001.vtu
+solution/solution-00097.0002.vtu
+solution/solution-00097.0003.vtu
+solution/solution-00098.0000.vtu
+solution/solution-00098.0001.vtu
+solution/solution-00098.0002.vtu
+solution/solution-00098.0003.vtu
+solution/solution-00099.0000.vtu
+solution/solution-00099.0001.vtu
+solution/solution-00099.0002.vtu
+solution/solution-00099.0003.vtu
+solution/solution-00100.0000.vtu
+solution/solution-00100.0001.vtu
+solution/solution-00100.0002.vtu
+solution/solution-00100.0003.vtu
